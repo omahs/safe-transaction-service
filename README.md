@@ -86,7 +86,7 @@ cp .env.tracing.sample .env
 
 Configure the parameters needed on `.env`. These parameters **need to be changed**:
 - `DJANGO_SECRET_KEY`: Use a **strong key**.
-- `ETHEREUM_NODE_URL`: Http/s address of a ethereum node. It can be the same than `ETHEREUM_TRACING_NODE_URL`.
+- `ETHEREUM_NODE_URL`: Http/s address of an ethereum node. It can be the same as `ETHEREUM_TRACING_NODE_URL`.
 - `ETHEREUM_TRACING_NODE_URL`: Http/s address of an OpenEthereum node with
 [tracing enabled](https://openethereum.github.io/JSONRPC-trace-module).
 
